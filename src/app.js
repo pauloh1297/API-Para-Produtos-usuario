@@ -6,15 +6,15 @@ var swaggerUI = require('swagger-ui-express');
 var swaggerFile = require('./swagger_output.json');
 
 
-var routeProduto = require('./src/routes/produto');
-var routeUsuario = require('./src/routes/usuario');
+var routeProduto = require('./routes/produtos');
+var routeUsuario = require('./routes/usuarios');
 
-var middlewares = require('./src/middlewares/middlewares');
+var middlewares = require('./middlewares/middlewares');
 
 const app = express()
 const port = 3000
 
-var url = 'mongodb+srv://admin:123@cluster0.3q6c6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+var url = 'mongodb+srv://paulo:123@cluster0.sn4wj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const options = {
     useNewUrlParser: true
 };

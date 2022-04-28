@@ -8,4 +8,4 @@ var ProdutoSchema = new Schema({
     datacricao: { type: Date, default: Date.now() }
 })
 
-module.exports = mongoose.model('Produto', ProdutoSchema)
+module.exports = mongoose.model('Produtos', ProdutoSchema)

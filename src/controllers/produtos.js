@@ -1,6 +1,6 @@
 const res = require('express/lib/response');
-const produto = require('../models/produto');
-var Produtos = require('../models/produto');
+const produto = require('../models/produtos');
+var Produtos = require('../models/produtos');
 
 /*
 exports.incluir = async (req, res)=>{
